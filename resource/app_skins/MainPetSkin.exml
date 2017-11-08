@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainPetSkin" width="3840" height="360" xmlns:e="http://ns.egret.com/eui" xmlns:ui="lxlPet.ui.*" xmlns:w="http://ns.egret.com/wing">
+	<ui:CGroup id="g_bigPet" width="542" height="493" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-63" verticalCenter="0"/>
+	<ui:CGroup id="g_smallPet" width="200" height="200" right="66" bottom="37">
+	</ui:CGroup>
+	<e:Image id="img_lino" source="hipng_png" right="29" bottom="0"/>
+	<ui:CGroup id="g_op" width="139.39" height="270" anchorOffsetX="0" right="73" bottom="235" anchorOffsetY="0">
+		<ui:CButton id="btn_hi" label="打招呼" x="23" y="11" name="hi"/>
+		<ui:CButton id="btn_good" label="奖励" x="23" y="74" name="good"/>
+		<ui:CButton id="btn_bye" label="再见" x="23" y="136" name="bye"/>
+		<ui:CButton id="btn_video" label="视频" x="23" y="201" name="video"/>
+	</ui:CGroup>
+</e:Skin>
